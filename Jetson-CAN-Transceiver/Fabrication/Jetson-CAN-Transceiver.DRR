@@ -1,0 +1,17 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Jetson-CAN-Transceiver.PcbDoc   2020-03-03  3:05:48 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Jetson-CAN-Transceiver.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      25mil (0.635mm)                                           Round             20        PTH        0.00inch (0.00mm)
+T2      35mil (0.9mm)                                             Round             8         PTH        0.00inch (0.00mm)
+T3      40mil (1.016mm)                                           Round             6         PTH        0.00inch (0.00mm)
+T4      49mil (1.24mm)                                            Round             4         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              38
+
+Total Processing Time (hh:mm:ss) : 00:00:00
