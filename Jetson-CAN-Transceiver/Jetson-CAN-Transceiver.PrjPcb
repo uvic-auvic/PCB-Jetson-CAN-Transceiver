@@ -114,83 +114,83 @@ DocumentPath=Project Outputs for Jetson-CAN-Transceiver\Design Rule Check - Jets
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=.\Fabrication\Jetson-CAN-Transceiver.DRR
+DocumentPath=Fabrication\Jetson-CAN-Transceiver.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=.\Fabrication\Jetson-CAN-Transceiver.EXTREP
+DocumentPath=Fabrication\Jetson-CAN-Transceiver.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=.\Fabrication\Jetson-CAN-Transceiver.GBL
+DocumentPath=Fabrication\Jetson-CAN-Transceiver.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=.\Fabrication\Jetson-CAN-Transceiver.GBO
+DocumentPath=Fabrication\Jetson-CAN-Transceiver.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=.\Fabrication\Jetson-CAN-Transceiver.GBP
+DocumentPath=Fabrication\Jetson-CAN-Transceiver.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=.\Fabrication\Jetson-CAN-Transceiver.GBS
+DocumentPath=Fabrication\Jetson-CAN-Transceiver.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=.\Fabrication\Jetson-CAN-Transceiver.GKO
+DocumentPath=Fabrication\Jetson-CAN-Transceiver.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=.\Fabrication\Jetson-CAN-Transceiver.GM1
+DocumentPath=Fabrication\Jetson-CAN-Transceiver.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=.\Fabrication\Jetson-CAN-Transceiver.GM13
+DocumentPath=Fabrication\Jetson-CAN-Transceiver.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=.\Fabrication\Jetson-CAN-Transceiver.GM15
+DocumentPath=Fabrication\Jetson-CAN-Transceiver.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=.\Fabrication\Jetson-CAN-Transceiver.GPB
+DocumentPath=Fabrication\Jetson-CAN-Transceiver.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=.\Fabrication\Jetson-CAN-Transceiver.GPT
+DocumentPath=Fabrication\Jetson-CAN-Transceiver.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=.\Fabrication\Jetson-CAN-Transceiver.GTL
+DocumentPath=Fabrication\Jetson-CAN-Transceiver.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=.\Fabrication\Jetson-CAN-Transceiver.GTO
+DocumentPath=Fabrication\Jetson-CAN-Transceiver.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=.\Fabrication\Jetson-CAN-Transceiver.GTP
+DocumentPath=Fabrication\Jetson-CAN-Transceiver.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=.\Fabrication\Jetson-CAN-Transceiver.GTS
+DocumentPath=Fabrication\Jetson-CAN-Transceiver.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=.\Fabrication\Jetson-CAN-Transceiver.LDP
+DocumentPath=Fabrication\Jetson-CAN-Transceiver.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=.\Fabrication\Jetson-CAN-Transceiver.REP
+DocumentPath=Fabrication\Jetson-CAN-Transceiver.REP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=.\Fabrication\Jetson-CAN-Transceiver.RUL
+DocumentPath=Fabrication\Jetson-CAN-Transceiver.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=.\Fabrication\Jetson-CAN-Transceiver.TXT
+DocumentPath=Fabrication\Jetson-CAN-Transceiver.TXT
 DItemRevisionGUID=
 
 [Configuration1]
@@ -351,7 +351,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=OneNote
+TargetPrinter=\\papercut\ELW-PRINT
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1217,128 +1217,56 @@ ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=AUVic_Integrated_Library_Capacitors.IntLib
 ComponentDesignItemID0=0.1uF 16V 0603 SMD, Ceramic
 ComponentSymbolReference0=0.1uF 16V 0603 SMD, Ceramic
-ComponentUpdate0=0
+ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=AUVic_Integrated_Library_Capacitors.IntLib
-ComponentDesignItemID1=0.1uF, 50V, 10%, X7R, 0603
-ComponentSymbolReference1=0.1uF, 50V, 10%, X7R, 0603
-ComponentUpdate1=0
+ComponentDesignItemID1=1uF 50V 0603 SMD, Ceramic
+ComponentSymbolReference1=1uF 50V 0603 SMD, Ceramic
+ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=AUVic_Integrated_Library_Capacitors.IntLib
-ComponentDesignItemID2=100uF, 35V, 20%, 30mOhm, Alum, SMD
-ComponentSymbolReference2=100uF, 35V, 20%, 30mOhm, Alum, SMD
-ComponentUpdate2=0
+ComponentLibraryIdentifier2=AUVic_Integrated_Library_Connectors.IntLib
+ComponentDesignItemID2=1x2 Male Header
+ComponentSymbolReference2=1x2 Male Header
+ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=AUVic_Integrated_Library_Capacitors.IntLib
-ComponentDesignItemID3=1uF 50V 0603 SMD, Ceramic
-ComponentSymbolReference3=1uF 50V 0603 SMD, Ceramic
-ComponentUpdate3=0
+ComponentLibraryIdentifier3=AUVic_Integrated_Library_Connectors.IntLib
+ComponentDesignItemID3=2x1 Terminal Block
+ComponentSymbolReference3=2x1 Terminal Block
+ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
 ComponentLibraryIdentifier4=AUVic_Integrated_Library_Connectors.IntLib
-ComponentDesignItemID4=1x2 Male Header
-ComponentSymbolReference4=1x2 Male Header
-ComponentUpdate4=0
+ComponentDesignItemID4=Header, Female/Male, 2x10, THT, 100mil
+ComponentSymbolReference4=Header, Female/Male, 2x10, THT, 100mil
+ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
 ComponentLibraryIdentifier5=AUVic_Integrated_Library_Connectors.IntLib
-ComponentDesignItemID5=2x1 Terminal Block, 20A, 12-20AWG
-ComponentSymbolReference5=2x1 Terminal Block, 20A, 12-20AWG
-ComponentUpdate5=0
+ComponentDesignItemID5=Header, Male, 2x3, Pitch: 0.1" (2.54mm), THT
+ComponentSymbolReference5=Header, Male, 2x3, Pitch: 0.1" (2.54mm), THT
+ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=AUVic_Integrated_Library_Connectors.IntLib
-ComponentDesignItemID6=2x1 Terminal Block
-ComponentSymbolReference6=2x1 Terminal Block
-ComponentUpdate6=0
+ComponentLibraryIdentifier6=AUVic_Integrated_Library_Interface.IntLib
+ComponentDesignItemID6=CAN Transceiver
+ComponentSymbolReference6=CAN Transceiver
+ComponentUpdate6=1
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=AUVic_Integrated_Library_Connectors.IntLib
-ComponentDesignItemID7=3x1, Terminal Block, Pitch: 5mm, Screw, THT
-ComponentSymbolReference7=3x1, Terminal Block, Pitch: 5mm, Screw, THT
-ComponentUpdate7=0
+ComponentLibraryIdentifier7=AUVic_Integrated_Library_Resistors.IntLib
+ComponentDesignItemID7=1kR, 1%, 1/10W , 0603, SMD
+ComponentSymbolReference7=1kR, 1%, 1/10W , 0603, SMD
+ComponentUpdate7=1
 ComponentIsDeviceSheet7=0
-ComponentLibIdentifierKind8=Library Name And Type
-ComponentLibraryIdentifier8=AUVic_Integrated_Library_Connectors.IntLib
-ComponentDesignItemID8=Header, Female/Male, 2x10, THT, 100mil
-ComponentSymbolReference8=Header, Female/Male, 2x10, THT, 100mil
-ComponentUpdate8=0
+ComponentLibIdentifierKind8=Library Name Only
+ComponentLibraryIdentifier8=Altium Content Vault
+ComponentDesignItemID8=CMP-2000-03868-1
+ComponentSymbolReference8=RES
+ComponentUpdate8=1
 ComponentIsDeviceSheet8=0
-ComponentLibIdentifierKind9=Library Name And Type
-ComponentLibraryIdentifier9=AUVic_Integrated_Library_Connectors.IntLib
-ComponentDesignItemID9=Header, Male, 1x4
-ComponentSymbolReference9=Header, Male, 1x4
-ComponentUpdate9=0
-ComponentIsDeviceSheet9=0
-ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=AUVic_Integrated_Library_Connectors.IntLib
-ComponentDesignItemID10=Header, Male, 2x3, Pitch: 0.1" (2.54mm), THT
-ComponentSymbolReference10=Header, Male, 2x3, Pitch: 0.1" (2.54mm), THT
-ComponentUpdate10=0
-ComponentIsDeviceSheet10=0
-ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=AUVic_Integrated_Library_Interface.IntLib
-ComponentDesignItemID11=CAN Transceiver
-ComponentSymbolReference11=CAN Transceiver
-ComponentUpdate11=0
-ComponentIsDeviceSheet11=0
-ComponentLibIdentifierKind12=Library Name And Type
-ComponentLibraryIdentifier12=AUVic_Integrated_Library_Motor_Controllers.IntLib
-ComponentDesignItemID12=A4963, BLDC, 3Phase
-ComponentSymbolReference12=A4963, BLDC, 3Phase
-ComponentUpdate12=1
-ComponentIsDeviceSheet12=0
-ComponentLibIdentifierKind13=Library Name And Type
-ComponentLibraryIdentifier13=AUVic_Integrated_Library_Resistors.IntLib
-ComponentDesignItemID13=0R, 1%, 1/10W, 0603 SMD
-ComponentSymbolReference13=0R, 1%, 1/10W, 0603 SMD
-ComponentUpdate13=0
-ComponentIsDeviceSheet13=0
-ComponentLibIdentifierKind14=Library Name And Type
-ComponentLibraryIdentifier14=AUVic_Integrated_Library_Resistors.IntLib
-ComponentDesignItemID14=0R01, 1%, 3W, 2512 SMD
-ComponentSymbolReference14=0R01, 1%, 3W, 2512 SMD
-ComponentUpdate14=0
-ComponentIsDeviceSheet14=0
-ComponentLibIdentifierKind15=Library Name And Type
-ComponentLibraryIdentifier15=AUVic_Integrated_Library_Resistors.IntLib
-ComponentDesignItemID15=1kR, 1%, 1/10W , 0603, SMD
-ComponentSymbolReference15=1kR, 1%, 1/10W , 0603, SMD
-ComponentUpdate15=0
-ComponentIsDeviceSheet15=0
-ComponentLibIdentifierKind16=Library Name And Type
-ComponentLibraryIdentifier16=AUVic_Integrated_Library_Transistors.IntLib
-ComponentDesignItemID16=SI7625DN-T1-GE3
-ComponentSymbolReference16=SI7625DN-T1-GE3
-ComponentUpdate16=0
-ComponentIsDeviceSheet16=0
-ComponentLibIdentifierKind17=Library Name And Type
-ComponentLibraryIdentifier17=AUVic_Integrated_Library_Transistors.IntLib
-ComponentDesignItemID17=SIS476DN-T1-GE3
-ComponentSymbolReference17=SIS476DN-T1-GE3
-ComponentUpdate17=0
-ComponentIsDeviceSheet17=0
-ComponentLibIdentifierKind18=Library Name And Type
-ComponentLibraryIdentifier18=AUVic_Integrated_Library_Virtual_Components.IntLib
-ComponentDesignItemID18=Mounting Hole, M3, Plated
-ComponentSymbolReference18=Mounting Hole, M3, Plated
-ComponentUpdate18=0
-ComponentIsDeviceSheet18=0
-ComponentLibIdentifierKind19=Library Name And Type
-ComponentLibraryIdentifier19=AUVic_Integrated_Library_Virtual_Components.IntLib
-ComponentDesignItemID19=Net Tie, 20mil
-ComponentSymbolReference19=Net Tie, 20mil
-ComponentUpdate19=0
-ComponentIsDeviceSheet19=0
-ComponentLibIdentifierKind20=Library Name Only
-ComponentLibraryIdentifier20=Altium Content Vault
-ComponentDesignItemID20=CMP-2000-03868-1
-ComponentSymbolReference20=RES
-ComponentUpdate20=0
-ComponentIsDeviceSheet20=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1352,72 +1280,52 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Capacitance
+ParameterName0=Comment
 ParameterUpdate0=1
-ParameterName1=Comment
+ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Component Kind
+ParameterName2=ComponentLink1Description
 ParameterUpdate2=1
-ParameterName3=ComponentLink1Description
+ParameterName3=ComponentLink1URL
 ParameterUpdate3=1
-ParameterName4=ComponentLink1URL
+ParameterName4=Created By
 ParameterUpdate4=1
-ParameterName5=Created By
+ParameterName5=Date Created
 ParameterUpdate5=1
-ParameterName6=Created On
+ParameterName6=Date Published
 ParameterUpdate6=1
-ParameterName7=Date Created
+ParameterName7=Description
 ParameterUpdate7=1
-ParameterName8=Date Made
+ParameterName8=Last Updated
 ParameterUpdate8=1
-ParameterName9=Date Published
+ParameterName9=LatestRevisionDate
 ParameterUpdate9=1
-ParameterName10=Description
+ParameterName10=LatestRevisionNote
 ParameterUpdate10=1
-ParameterName11=Last Edited
+ParameterName11=Library Reference
 ParameterUpdate11=1
-ParameterName12=Last Updated
+ParameterName12=Made by
 ParameterUpdate12=1
-ParameterName13=LatestRevisionDate
+ParameterName13=Manufacturer
 ParameterUpdate13=1
-ParameterName14=LatestRevisionNote
+ParameterName14=PackageDescription
 ParameterUpdate14=1
-ParameterName15=Library Reference
+ParameterName15=Part Number
 ParameterUpdate15=1
-ParameterName16=Made Bates
+ParameterName16=Published
 ParameterUpdate16=1
-ParameterName17=Made by
+ParameterName17=Publisher
 ParameterUpdate17=1
-ParameterName18=Manufacturer
+ParameterName18=Reviewed By
 ParameterUpdate18=1
-ParameterName19=Mounting Type
+ParameterName19=Supplier 1
 ParameterUpdate19=1
-ParameterName20=Operating Temperature
+ParameterName20=Supplier 1 Part Number
 ParameterUpdate20=1
-ParameterName21=Owned By
+ParameterName21=Supplier Part Number 1
 ParameterUpdate21=1
-ParameterName22=Package / Case
+ParameterName22=Value
 ParameterUpdate22=1
-ParameterName23=PackageDescription
-ParameterUpdate23=1
-ParameterName24=Part Number
-ParameterUpdate24=1
-ParameterName25=Published
-ParameterUpdate25=1
-ParameterName26=Publisher
-ParameterUpdate26=1
-ParameterName27=Reviewed By
-ParameterUpdate27=1
-ParameterName28=Size
-ParameterUpdate28=1
-ParameterName29=Supplier 1
-ParameterUpdate29=1
-ParameterName30=Supplier 1 Part Number
-ParameterUpdate30=1
-ParameterName31=Supplier Part Number 1
-ParameterUpdate31=1
-ParameterName32=Value
-ParameterUpdate32=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
@@ -1427,56 +1335,29 @@ ModelType1=PCBLIB
 ModelName1=2X1 Terminal Blocks
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=2X1 Terminal Blocks Phoenix Contact 5mm
+ModelName2=8-SOIC
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=3x1, Terminal Block, Pitch: 5mm, Screw, THT
+ModelName3=CAPC1608N(0603")
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=8-SOIC
+ModelName4=HEADER, FEMALE/MALE, 2x10, 100mil
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=CAPC1608N(0603")
+ModelName5=Header, Male, 2x3, Pitch: 0.1" (2.54mm),THT
 ModelUpdate5=1
 ModelType6=PCBLIB
-ModelName6=Clearance_M3_PLATED
+ModelName6=RESC1608N(0603")
 ModelUpdate6=1
 ModelType7=PCBLIB
-ModelName7=HEADER, FEMALE/MALE, 2x10, 100mil
+ModelName7=RESC1609X50X30LL10T20
 ModelUpdate7=1
 ModelType8=PCBLIB
-ModelName8=Header, Male, 1X4
+ModelName8=RESC1609X50X30ML10T20
 ModelUpdate8=1
 ModelType9=PCBLIB
-ModelName9=Header, Male, 2x3, Pitch: 0.1" (2.54mm),THT
+ModelName9=RESC1609X50X30NL10T20
 ModelUpdate9=1
-ModelType10=PCBLIB
-ModelName10=NETTIE_20mil
-ModelUpdate10=1
-ModelType11=PCBLIB
-ModelName11=PowerPAK 1212-8
-ModelUpdate11=1
-ModelType12=PCBLIB
-ModelName12=Radial_CAN_6.6mm
-ModelUpdate12=1
-ModelType13=PCBLIB
-ModelName13=RESC1608N(0603")
-ModelUpdate13=1
-ModelType14=PCBLIB
-ModelName14=RESC1609X50X30LL10T20
-ModelUpdate14=1
-ModelType15=PCBLIB
-ModelName15=RESC1609X50X30ML10T20
-ModelUpdate15=1
-ModelType16=PCBLIB
-ModelName16=RESC1609X50X30NL10T20
-ModelUpdate16=1
-ModelType17=PCBLIB
-ModelName17=RESC6332N(2512")
-ModelUpdate17=1
-ModelType18=PCBLIB
-ModelName18=TSOP65P640X120_HS-21M
-ModelUpdate18=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
